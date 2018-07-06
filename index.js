@@ -1,7 +1,7 @@
 var assert = require('assert')
 
 var createAuth = require('@dwauth/auth')
-var basic = require('dwid-auth/basic')
+var basic = require('@dwauth/auth/basic')
 var createAccess = require('@dwauth/access')
 var createToken = require('@dwauth/token')
 var xtend = require('xtend')
